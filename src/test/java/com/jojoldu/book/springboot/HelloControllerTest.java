@@ -15,7 +15,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 //스프링부트테스트와 JUnit의 연결자역할
 @RunWith(SpringRunner.class)
 //컨트롤러를 사용할수있다.
-@WebMvcTest(controllers = HelloController.class)
+@WebMvcTest
 public class HelloControllerTest {
 
     @Autowired
